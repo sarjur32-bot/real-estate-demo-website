@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Helvetica', sans-serif; }
+        body { background: #fafafa; }
+        
+        /* Header */
+        .top-bar { background: #000; color: #fff; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; }
+        .brand { font-weight: 900; font-size: 1.4rem; color: #00d4ff; }
+
+        /* Welcome Section */
+        .welcome { padding: 80px 5%; background: #fff; display: flex; flex-wrap: wrap; align-items: center; }
+        .welcome-text { flex: 1; min-width: 300px; padding-right: 20px; }
+        .welcome-text h1 { font-size: 3rem; line-height: 1; margin-bottom: 20px; }
+        .welcome-text p { color: #666; line-height: 1.6; margin-bottom: 20px; }
+        .welcome-img { flex: 1; min-width: 300px; }
+        .welcome-img img { width: 100%; border-radius: 20px; box-shadow: 20px 20px 0px #00d4ff; }
+
+        /* Stats */
+        .stats { display: flex; justify-content: space-around; padding: 40px 5%; background: #000; color: #fff; text-align: center; }
+        .stat-item h2 { color: #00d4ff; font-size: 2rem; }
+        .stat-item p { font-size: 0.7rem; text-transform: uppercase; }
+
+        /* Listing Section */
+        .listing { padding: 60px 5%; }
+        .l-card { background: white; margin-bottom: 30px; border-radius: 15px; overflow: hidden; border: 1px solid #eee; }
+        .l-card img { width: 100%; height: 250px; object-fit: cover; }
+        .l-content { padding: 25px; }
+        .l-content h3 { margin-bottom: 10px; }
+        .l-content .price { color: #00d4ff; font-weight: bold; font-size: 1.3rem; }
+
+        /* Footer Call to Action */
+        .cta-footer { background: #fff; padding: 50px 5%; text-align: center; border-top: 1px solid #eee; }
+        .cta-footer h2 { margin-bottom: 10px; }
+        .wp-btn { display: inline-block; background: #25d366; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="brand">VANTAGE</div>
+        <div style="font-size: 0.8rem;">CALL: +1 800-REAL-ESTATE</div>
+    </div>
+
+    <section class="welcome">
+        <div class="welcome-text">
+            <h1>Expertise. <br>Transparency. <br>Results.</h1>
+            <p>Welcome to Vantage Realty. We specialize in locating the most profitable residential and commercial investments in the city.</p>
+            <p>Over 15 years of excellence in building trust and delivering dreams.</p>
+        </div>
+        <div class="welcome-img">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800" alt="Building">
+        </div>
+    </section>
+
+    <div class="stats">
+        <div class="stat-item"><h2>500+</h2><p>Homes Sold</p></div>
+        <div class="stat-item"><h2>12</h2><p>Global Awards</p></div>
+        <div class="stat-item"><h2>$2B+</h2><p>Assets Managed</p></div>
+    </div>
+
+    <section class="listing">
+        <h2 style="margin-bottom: 30px;">Featured Collections</h2>
+        <div class="l-card">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600">
+            <div class="l-content">
+                <span class="price">$5,250,000</span>
+                <h3>The Marble Villa</h3>
+                <p style="color: #888;">Beverly Hills, Los Angeles</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-footer">
+        <h2>Ready to start your journey?</h2>
+        <p>Contact our support team 24/7 for a free consultation.</p>
+        <a href="#" class="wp-btn">CHAT ON WHATSAPP</a>
+    </section>
+</body>
+</html>
